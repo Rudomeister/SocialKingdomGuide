@@ -1,0 +1,16 @@
+name: ${name}
+version: ${version}
+main: no.socialkingdom.guide.SocialKingdomGuidePlugin
+api-version: '1.21'
+author: Social Kingdom
+description: Chat guide announcements for Social Kingdom.
+commands:
+  socialkingdomguide:
+    description: Manage SocialKingdomGuide announcements
+    usage: /socialkingdomguide <add|list|remove|set|reload>
+    aliases:
+      - skg
+permissions:
+  socialkingdomguide.admin:
+    description: Allows managing SocialKingdomGuide announcements
+    default: op

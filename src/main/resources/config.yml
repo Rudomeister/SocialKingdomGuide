@@ -1,0 +1,26 @@
+# Minutes between each chat announcement.
+interval-minutes: 15
+
+messages:
+  prefix: "&8[&6SocialKingdom&8] &r"
+  reloaded: "&aSocialKingdomGuide reloadet. &7({count} annonser, {interval} min)"
+  no-permission: "&cDu har ikke tilgang til denne kommandoen."
+  usage:
+    - "&e/{label} add announce <tekst> &7- legg til annonse"
+    - "&e/{label} list announcement &7- vis annonser"
+    - "&e/{label} remove announce <id> &7- fjern annonse"
+    - "&e/{label} set <minutter> &7- sett intervall"
+    - "&e/{label} reload &7- last config.yml på nytt"
+  added: "&aLa til annonse #{id}."
+  removed: "&aFjernet annonse #{id}."
+  missing-announcement: "&cFant ingen annonse med ID {id}."
+  invalid-number: "&cSkriv inn et gyldig tall."
+  interval-set: "&aAnnonseintervall satt til {interval} minutter."
+  list-header: "&6Annonser:"
+  list-empty: "&7Ingen annonser er lagt inn."
+  list-line: "&e#{id} &7- &f{message}"
+  announce-format: "&8[&6Info&8] &f{message}"
+
+announcements:
+  - id: 1
+    message: "&eHusk på å låse kister."
